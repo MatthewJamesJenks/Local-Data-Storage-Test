@@ -1,6 +1,5 @@
 var selected;
 
-
 var key1 = "Phone";
 var value1 = "Galaxy A3";
 
@@ -25,5 +24,5 @@ function displaySet2()
 
 function displayStuff()
 {
-  alert("value" + selected);
+  alert("Value: " + selected);
 }
