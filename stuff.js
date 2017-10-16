@@ -1,5 +1,5 @@
-var selectedKey;
-var selectedValue;
+var selected;
+
 
 var key1 = "Phone";
 var value1 = "Galaxy A3";
@@ -13,19 +13,17 @@ window.localStorage.setItem( key2, value2 );
 
 function displaySet1()
 {
-  selectedKey = window.localStorage.getItem(key1);
-  selectedValue = window.localStorage.getItem(value1);
+  selected = window.localStorage.getItem(key1);
   displayStuff();
 }
 
 function displaySet2()
 {
-  selectedKey = window.localStorage.getItem(key2);
-  selectedValue = window.localStorage.getItem(value2);
+  selected = window.localStorage.getItem(key2);
   displayStuff();
 }
 
 function displayStuff()
 {
-  alert("Key: " + selectedKey + "Value: " + selectedValue);
+  alert("value" + selectedKey);
 }
