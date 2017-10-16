@@ -2,8 +2,7 @@ var key = "Phone";
 var value = "Galaxy A3";
 
 
-function updateDisplay()
+function displayAlert()
 {
-  $("#Key").text("Key: " + key);
-  $("#Value").text("Value: " + value);
+  alert("Key: " + key + "Value: " + value);
 }
