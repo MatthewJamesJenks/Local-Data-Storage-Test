@@ -25,5 +25,5 @@ function displaySet2()
 
 function displayStuff()
 {
-  alert("value" + selectedKey);
+  alert("value" + selected);
 }
