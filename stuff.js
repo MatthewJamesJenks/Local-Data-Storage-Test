@@ -6,7 +6,7 @@ var value1 = "Galaxy A3";
 window.localStorage.setItem( key1, value1 );
 
 var key2 = "Drink";
-var Value2 = "Drench";
+var value2 = "Drench";
 
 window.localStorage.setItem( key2, value2 );
 
