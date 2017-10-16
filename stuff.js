@@ -1,14 +1,26 @@
-var key = "Phone";
-var value = "Galaxy A3";
+var selectedKey;
+var selectedValue;
 
-document.addEventListener("deviceready", onDeviceReady, false);
+var key1 = "Phone";
+var value1 = "Galaxy A3";
 
-function displayAlert()
+window.localStorage.setItem( key1, value1 );
+
+var key2 = "Drink";
+var Value2 = "Drench";
+
+window.localStorage.setItem( key2, value2 );
+
+function displaySet1()
 {
-  alert("Key: " + key + "Value: " + value);
+  selectedKey = window.localStorage.getItem(key1);
+  selectedValue = window.localStorage.getItem(value1);
+  alert("Key: " + selectedKey + "Value: " + selectedValue);
 }
 
-function onDeviceReady()
+function displaySet2()
 {
-  displayAlert();
+  selectedKey = window.localStorage.getItem(key2);
+  selectedValue = window.localStorage.getItem(value2);
+  alert("Key: " + selectedKey + "Value: " + selectedKey);
 }
