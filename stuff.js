@@ -10,6 +10,15 @@ var value2 = "Drench";
 
 window.localStorage.setItem( key2, value2 );
 
+var person = {
+  "firstName" : "Rick",
+  "lastName" : "Sanchez",
+  "address" : {
+    "state" : "Washington",
+    "country" : "USA"
+    }
+  }
+}
 function displaySet1()
 {
   selected = window.localStorage.getItem(key1);
