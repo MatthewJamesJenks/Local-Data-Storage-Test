@@ -27,5 +27,5 @@ function displaySet2()
 
 function displayStuff()
 {
-  alert("Key: " + selectedKey + "Value: " + selectedKey);
+  alert("Key: " + selectedKey + "Value: " + selectedValue);
 }
